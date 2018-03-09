@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/mb_white"
+    android:orientation="vertical"
+
+
+    >
+    <include
+        android:id="@+id/toolbar_scanner"
+        layout="@layout/toolbar_custom"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+      >
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="select images"
+           android:layout_marginTop="10dp"
+           android:id="@+id/addImages"
+          android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:theme="@style/MyButton"
+           android:layout_marginLeft="50dp"
+           android:layout_marginRight="50dp"
+          />
+
+
+           </LinearLayout>
+
+    <!--<com.dd.morphingbutton.MorphingButton-->
+        <!--android:id="@+id/pdfOpen"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="0"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="open_pdf_text"-->
+        <!--android:textColor="@color/mb_white"-->
+        <!--android:visibility="gone"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="createpdf"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pdfCreate"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:theme="@style/MyButton"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View and upload"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pdfview"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:theme="@style/MyButton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="crop images"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cropImages"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:theme="@style/MyButton"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+

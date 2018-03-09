@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar_editorder"
+            layout="@layout/toolbar_custom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/input_gridlayout_ordercost"
+                    >
+
+
+                    <EditText
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:backgroundTint="#C9C9C9"
+                        android:id="@+id/input_gridordercost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:gravity="left"
+                        android:clickable="false"
+                        android:hint="Order Cost" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/input_gridlayout_searchcost"
+                    >
+
+
+                    <EditText
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:backgroundTint="#C9C9C9"
+                        android:id="@+id/input_gridsearchcost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:gravity="left"
+                        android:clickable="false"
+                        android:hint="Search Cost" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/input_gridlayout_copycost">
+
+
+                    <EditText
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:backgroundTint="#C9C9C9"
+                        android:id="@+id/input_gridcopycost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:gravity="left"
+                        android:clickable="false"
+                        android:hint="Copy Cost" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/input_gridlayout_noofpages">
+
+
+                    <EditText
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:backgroundTint="#C9C9C9"
+                        android:id="@+id/input_gridnoofpages"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:gravity="left"
+                        android:clickable="false"
+                        android:hint="No of Pages" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/input_gridlayout_date">
+
+
+                    <EditText
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:backgroundTint="#C9C9C9"
+                        android:id="@+id/input_gridinvoicedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:gravity="left"
+                        android:clickable="false"
+                        android:hint="Invoice Date" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                >
+
+                <Button
+                    android:text="Preview"
+                    android:textAllCaps="true"
+                    android:textColor="#205DA9"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/button_gridinvoicepreview"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+
+                <Button
+                    android:text="Submit"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="60dp"
+                    android:theme="@style/MyButton"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/button_gridinvoicesubmit"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

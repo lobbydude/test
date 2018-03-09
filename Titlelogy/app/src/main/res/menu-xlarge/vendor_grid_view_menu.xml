@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/vengridmenu1"
+        android:orderInCategory="100"
+        android:title="HOLD"
+        />
+
+    <item
+        android:id="@+id/vengridmenu2"
+        android:orderInCategory="101"
+        android:title="CANCELLED" />
+
+    <item
+        android:id="@+id/vengridmenu3"
+        android:orderInCategory="101"
+        android:title="CLARIFICATION"/>
+
+    <item
+        android:id="@+id/vengridmenu4"
+        android:orderInCategory="101"
+        android:title="WORK IN PROGRESS"/>
+
+    <item
+        android:id="@+id/vengridmenu5"
+        android:orderInCategory="101"
+        android:title="COMPLETED"/>
+
+
+
+</menu>

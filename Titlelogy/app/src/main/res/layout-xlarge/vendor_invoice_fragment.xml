@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar_editorder"
+            layout="@layout/toolbar_custom" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/input_layout_vendorordercost"
+                app:hintTextAppearance="@style/TextLabel"
+                app:errorTextAppearance="@style/error">
+
+
+                <EditText
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:backgroundTint="#C9C9C9"
+                    android:id="@+id/input_vendor_ordercost"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:inputType="text"
+                    android:clickable="false"
+                    android:hint="Order Cost" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/input_layout_vendorsearchcost"
+                app:hintTextAppearance="@style/TextLabel"
+                app:errorTextAppearance="@style/error">
+
+
+                <EditText
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:backgroundTint="#C9C9C9"
+                    android:id="@+id/input_vendor_searchcost"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:inputType="text"
+                    android:clickable="false"
+                    android:hint="Search Cost" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/input_layout_vendorcopycost"
+                app:hintTextAppearance="@style/TextLabel"
+                app:errorTextAppearance="@style/error">
+
+
+                <EditText
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:backgroundTint="#C9C9C9"
+                    android:id="@+id/input_vendor_copycost"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:inputType="text"
+                    android:clickable="false"
+                    android:hint="Copy Cost" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/input_layout_vendornoofpages"
+                app:hintTextAppearance="@style/TextLabel"
+                app:errorTextAppearance="@style/error">
+
+
+                <EditText
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:backgroundTint="#C9C9C9"
+                    android:id="@+id/input_vendor_noofpages"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:inputType="text"
+                    android:clickable="false"
+                    android:hint="No of Pages" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:text="Upload "
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="100dp"
+                android:theme="@style/MyButton"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/button_venorderupload"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30sp"/>
+
+
+
+            <Button
+                android:text="Submit"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="100dp"
+                android:theme="@style/MyButton"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/vendor_button_editordersubmit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Button
+                android:text="Invoice"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="100dp"
+                android:theme="@style/MyButton"
+                android:gravity="center"
+                android:id="@+id/button_vendoreditorderinvoice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

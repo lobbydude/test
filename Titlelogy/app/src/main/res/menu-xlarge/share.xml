@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Share"
+        android:id="@+id/menu_item_share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        />
+    <item
+        android:title="downl"
+        android:id="@+id/menu_item_download"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_down_tool"
+        />
+</menu>
